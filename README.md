@@ -2,7 +2,7 @@
 
 A Geode mod for Geometry Dash that adds an in-game viewer for the Silent Level List (SLL).
 
-Fork of ILL Viewer. It fetches the list live from `api.impossiblelevels.com` with `listType=SLL`, so no bundled data file is needed.
+Fork of [ILL Viewer](https://github.com/NotDeathcookie/ill-viewer). It fetches the list live from `api.impossiblelevels.com` with `listType=SLL`, so no bundled data file is needed.
 
 ## Building locally
 
