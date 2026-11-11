@@ -263,9 +263,10 @@ class $modify(SLLLevelSearchLayer, LevelSearchLayer) {
         if (menu) {
             auto ccMenu = typeinfo_cast<CCMenu*>(menu);
             if (ccMenu) {
-                // Load the built-in Extreme Demon sprite and tint it purple
+                // Load the built-in Extreme Demon sprite and tint it dark gray at 85% opacity.
                 auto spr = CCSprite::createWithSpriteFrameName("difficulty_10_btn2_001.png");
-                spr->setColor({170, 90, 255}); 
+                spr->setColor({61, 61, 61});
+                spr->setOpacity(static_cast<GLubyte>(255 * 0.85f));
                 spr->setScale(0.85f);
                 
                 auto btn = CCMenuItemSpriteExtra::create(
