@@ -1,0 +1,13 @@
+{
+    "geode": "5.11.2",
+    "gd": {
+        "win": "*",
+        "mac": "*",
+        "android": "*"
+    },
+    "id": "silent.sll-viewer",
+    "name": "SLL Viewer",
+    "version": "v1.0.0",
+    "developer": "silent",
+    "description": "Custom in-game viewer for the Geometry Dash Silent Level List (SLL)."
+}
